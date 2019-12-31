@@ -5,6 +5,11 @@
 // 3. export getNotes function
 // 4. from app.js, load in and call the function printing the message to the console
 
+const displayNotes = require('./notes.js')
+
+const myNotes = displayNotes()
+
+console.log(myNotes)
 
 
 
